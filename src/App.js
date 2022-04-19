@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Canva from './components/canva.jsx';
+import DarkModeThemeProvider from './components/darkmode.jsx';
+import FinalForm from './components/finalForm.jsx';
+import JsonViewer from './components/jsonViewer.jsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="dark flex justify-center flex-col items-center my-4">
+        {/* <DarkModeThemeProvider /> */ }
+        <div className="m-10 border border-yellow-500 bg-gray-50  text-white p-2 rounded shadow-lg">
+          <Canva />
+        </div>
+        <JsonViewer />
+        {/* <FinalForm/> */}
+      </div>
+    </>
   );
 }
 
