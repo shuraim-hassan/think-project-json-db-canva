@@ -1,11 +1,10 @@
 import React from 'react';
 import Canva from './components/canva.jsx';
+import ScratchApp from './components/CanvaScratch.tsx';
 import DarkModeThemeProvider from './components/darkmode.jsx';
 import JsonViewer from './components/jsonViewer.jsx';
 import { Upload } from './components/uploadJsonDataFile.jsx';
 import JsonDownloadFIle from './components/writeJson.js';
-
-
 
 
 function App() {
@@ -14,17 +13,18 @@ function App() {
   // write async await function
   return (
     <>
-      <div className="dark flex justify-center flex-col items-center my-4">
+      <div >
+        <ScratchApp/>
        {/* <JsonDownloadFIle/> */}
         {/* <DarkModeThemeProvider />  */ }
-        <div className="m-10 border border-yellow-500 bg-gray-50  text-white p-2 rounded shadow-lg">
+        {/* <div className="m-10 border border-yellow-500 bg-gray-50  text-white p-2 rounded shadow-lg">
           <Canva />
-        </div>
+        </div> */}
         {/* <JsonViewer /> */ }
         {/* <FinalForm /> */ }
-        <Upload>
+        {/* <Upload>
           <button>Upload Files</button>
-        </Upload>
+        </Upload> */}
 
 
       </div>

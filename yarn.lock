@@ -7156,6 +7156,11 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
+react-sketch-canvas@^6.1.5:
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/react-sketch-canvas/-/react-sketch-canvas-6.1.5.tgz#61eb3f15e3c2d315bfb5bf3e0efc15a5b50cad3e"
+  integrity sha512-ZxrEmPY9984SvFPkEl/c/FKKkiPa56SITjNFHh9cNN25q+meAyQ6wT0rPCkf7yLjc4dXgYEppW87dP/dmuN15g==
+
 react-textarea-autosize@^8.3.2:
   version "8.3.3"
   resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-8.3.3.tgz#f70913945369da453fd554c168f6baacd1fa04d8"
@@ -8209,6 +8214,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript@^4.6.4:
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
+  integrity sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==
 
 ua-parser-js@^0.7.30:
   version "0.7.31"
